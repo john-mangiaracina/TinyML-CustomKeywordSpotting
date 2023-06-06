@@ -16,3 +16,16 @@ After much investigation, I decided to separate the task into two major parts.  
 
 https://colab.research.google.com/github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb
 
+To complete the second set of tasks and run the second notebook, one will first have to install Andaconda on their own personal computer.  Although Anadaconda is available for Windows, Linux, and MacOS, I have to date only released a version for the RHEL-based Linux OS.  The second notebook has been tested on Fedora 37, although it should run on any RHEL-based OS.  If there is interest, I might draft an alternative notebook for Debian-based distros.
+
+A complete list of the h/w test config, OS details, and installed conda related s/w is here.
+
+#  Fedora install
+
+If the user does not have access to a system running Fedora, they should use a VM.  The solution was tested on a system running Fedora on bare metal, but this is not required.  If you do not have Fedora installed on bare metal, consider a Virtual Machine (VM).  If you do not have a preference and especially if you are new to VMs, I suggest <a href="https://www.virtualbox.org/">VirtualBox.</a>  Installs are available for MacOS, Linux, and Windows.
+
+If you need an .iso image of Fedora Workstation, it is available <a href="https://fedoraproject.org/workstation/">here.</a>
+
+#  Andaconda install
+
+To install 
