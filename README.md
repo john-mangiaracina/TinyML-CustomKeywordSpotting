@@ -22,10 +22,27 @@ A complete list of the h/w test config, OS details, and installed conda related 
 
 #  Fedora install
 
-If the user does not have access to a system running Fedora, they should use a VM.  The solution was tested on a system running Fedora on bare metal, but this is not required.  If you do not have Fedora installed on bare metal, consider a Virtual Machine (VM).  If you do not have a preference and especially if you are new to VMs, I suggest <a href="https://www.virtualbox.org/">VirtualBox.</a>  Installs are available for MacOS, Linux, and Windows.
+If the user does not have access to a system running Fedora, they should use a VM.  The solution was tested on a system running Fedora on bare metal, but this is not required.  If you do not have Fedora installed on bare metal, consider a Virtual Machine (VM).  If you do not have a preference and especially if you are new to VMs, I suggest <a href="https://www.virtualbox.org/">VirtualBox.</a>  Installs are available for MacOS, Linux, and Windows.  There are an abundance of tutorials available to get you started.
 
-If you need an .iso image of Fedora Workstation, it is available <a href="https://fedoraproject.org/workstation/">here.</a>
+If you need an .iso image of Fedora Workstation, it is available <a href="https://fedoraproject.org/workstation/">here.</a>  There are an abundance of tutorials available to get you started.
 
-#  Andaconda install
+#  Anaconda install
 
-To install 
+Once you have Fedora setup, you will want to download Anaconda from within Fedora.  Anaconda is available <a href="https://www.anaconda.com/">here.</a>  Since you will be installing this on Fedora, you will want to go <a href="https://docs.anaconda.com/free/anaconda/install/linux/">here for information about the install.</a>  
+
+As a prerequisite, you will want to run the following code:
+
+sudo dnf install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver xxd
+
+from the command line.  I am recommending you do the install with sudo because you will not want to install anaconda from root.  Note the first series of executable code is required to run anaconda, and the last application xxd is required to be system installed for this lab.
+
+This jupyter notebook assumes that the user follows all defaults.  This is because we will be changing some of the installed conda files and we need the files to be in the correct directory for the code to run correctly.
+
+Once you have verified your conda install, close the terminal.  Then launch your terminal program again.
+
+Now, the fun begins!
+
+#  Create a virtual developer environment
+
+Now that 
+
