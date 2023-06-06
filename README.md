@@ -7,7 +7,12 @@ This repository is devoted to providing a fix for a set of jupyter notebooks use
 
 The notebooks are used as part of Section 1.5, "Deploying a KWS Model with Your Favorite Keyword(s)" of Course 3, Deploying TinyML.  This course is part of the <a href="https://www.edx.org/professional-certificate/harvardx-applied-tiny-machine-learning-tinyml-for-scale">Applied Tiny Machine Learning (TinyML) for Scale Professional Certificate Program</a> offered through <a href="[url](https://www.edx.org)">edx.org</a>.
 
- <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">The original notebook is here.</a> 
+<a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">The original jupyter notebook that was used in the class is available by clicking here.</a>
+
+After much investigation, I decided to separate the task into two major parts.  The first notebook is designed to be run in colab.  <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">It is available by clicking here.</a>  You will have to download this notebook to your own computer and then upload into <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">Google Colab.</a>
+
+<a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">The original jupyter notebook that was used in the class is available by clicking here.</a>
+ 
 
 https://colab.research.google.com/github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb
 
