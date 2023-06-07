@@ -1,17 +1,20 @@
-These s/w and h/w config data is provided to assist troubleshooting
+This h/w and s/w test config data is provided to assist troubleshooting.
 
 The embedded microcontroller that was used for the project was the Arduino Tiny Machine Learning Kit as required for the course.  
-This kit includes the Arduino Nano 33 BLE Sense board, which features a Nordic Semi nRF52840, ARM® Cortex®-M4 32-bit processor with FPU, 64 MHz, 1 MB flash, 256 kB RAM
+This kit includes the Arduino Nano 33 BLE Sense board, which features a Nordic Semi nRF52840, ARM® Cortex®-M4 32-bit processor with FPU, 64 MHz, 1 MB flash, 256 kB RAM.
 
-The first notebook was tested on the default Google Colab setup.  It was tested and verified on 05June, 2023
+Additional info for the kit is available at:  https://store-usa.arduino.cc/products/arduino-tiny-machine-learning-kit?selectedStore=us
 
-The second notebook was tested on an x86 i7-7820HQ 4 cores multi-threaded 8MB L3 cache 32GB DRAM ThinkPad running Fedora 37 on bare metal
+The first notebook was tested on the default Google Colab setup.  It was tested and verified on 05June, 2023.
+
+The second notebook was tested on an x86 i7-7820HQ 4 cores multi-threaded 8MB L3 cache 32GB DRAM ThinkPad running Fedora 37 on bare metal.
+
 
 (base) john@fedora:~$ uname -a
 Linux fedora 6.3.5-100.fc37.x86_64 #1 SMP PREEMPT_DYNAMIC Tue May 30 15:43:51 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 
 
-the conda list for the base conda install that was used
+the conda list for the base conda install that was used:
 
 # packages in environment at /home/john/anaconda3:
 #
@@ -164,7 +167,7 @@ zstd                      1.5.5                hc292b87_0
 
 
 
-the conda list for the dev env that was used
+the conda list for the dev env that was used:
 
 (myenv36) john@fedora:~$ conda list
 # packages in environment at /home/john/anaconda3/envs/myenv36:
