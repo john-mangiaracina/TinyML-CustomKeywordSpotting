@@ -6,9 +6,7 @@
 This repository is devoted to providing a fix for a jupyter notebooks used for Keyword Spotting (KWS) which would no longer run within Google Colab.  The notebook is used as part of Section 1.5, "Deploying a KWS Model with Your Favorite Keyword(s)" in Course 3, "Deploying TinyML".  This course is part of the <a href="https://www.edx.org/professional-certificate/harvardx-applied-tiny-machine-learning-tinyml-for-scale">Applied Tiny Machine Learning (TinyML) for Scale Professional Certificate Program</a> offered through <a href="[url](https://www.edx.org)">edx.org</a>.
 
 Below is an image of the embedded dev board that is used in the course
-
 <img src="https://cdn.shopify.com/s/files/1/0506/1689/3647/products/ABX00031_03.front_643x483.jpg?v=1626445224" alt="Arduino Nano 33 BLE Sense board"> 
-
 The original notebook would no longer run due to the need to use Tensorflow version 1.15 and the lack of support for Python 3.6.x or 3.7.x within Google Colab.  These versions of Python are required to use Tensorflow 1.15.  
 
 If you would like to view the original jupyter notebook that was used in the class, it is available by <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">clicking here.</a>
