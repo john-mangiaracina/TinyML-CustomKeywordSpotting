@@ -18,7 +18,7 @@ https://colab.research.google.com/github.com/john-mangiaracina/TinyML-CustomKeyw
 
 To complete the second set of tasks and run the second notebook, one will have to install Andaconda on their own personal computer.  Although Anaconda is available for Windows, Linux, and MacOS, I have to date only released a version for Fedora, a RHEL-based Linux OS.  The second notebook has been tested on Fedora 37, although it should run on any RHEL-based OS.  If there is interest, I might draft an alternative notebook for Debian-based distros.
 
-A complete list of the h/w test config, OS details, and installed conda related s/w is  <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">here.</a>
+A complete list of the h/w test config, OS details, and installed conda related s/w is  <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/hardware-and-software-config-and-versions">here.</a>
 
 #  Fedora install
 
