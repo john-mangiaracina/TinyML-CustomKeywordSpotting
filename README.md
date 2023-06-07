@@ -1,24 +1,24 @@
-# Alternative Set of Jupyter Notebooks for TinyML Custom Keyword Spotting (KWS)
+# Revised Jupyter Notebook for TinyML Custom Keyword Spotting (KWS)
 
 <img src="https://canadianmedicalteams.org/wp-content/uploads/2013/10/Website-Under-Construction-template1.jpg" alt="Under Construction">
 
 
-This repository is devoted to providing a fix for a set of jupyter notebooks used for Keyword Spotting (KWS).  The original notebook would no longer run due to the need to use Tensorflow 1.15 and the inability of Colab to permit the use of Python 3.6.c or 3.7.x.  
+This repository is devoted to providing a fix for a jupyter notebooks used for Keyword Spotting (KWS) which would no longer run within Google Colab.  The notebook is used as part of Section 1.5, "Deploying a KWS Model with Your Favorite Keyword(s)" in Course 3, "Deploying TinyML".  This course is part of the <a href="https://www.edx.org/professional-certificate/harvardx-applied-tiny-machine-learning-tinyml-for-scale">Applied Tiny Machine Learning (TinyML) for Scale Professional Certificate Program</a> offered through <a href="[url](https://www.edx.org)">edx.org</a>.
 
-The notebooks are used as part of Section 1.5, "Deploying a KWS Model with Your Favorite Keyword(s)" of Course 3, Deploying TinyML.  This course is part of the <a href="https://www.edx.org/professional-certificate/harvardx-applied-tiny-machine-learning-tinyml-for-scale">Applied Tiny Machine Learning (TinyML) for Scale Professional Certificate Program</a> offered through <a href="[url](https://www.edx.org)">edx.org</a>.
+The original notebook would no longer run due to the need to use Tensorflow version 1.15 and the lack of support for Python 3.6.x or 3.7.x within Google Colab.  These versions of Python are required to use Tensorflow 1.15.  
 
-<a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">The original jupyter notebook that was used in the class is available by clicking here.</a>
+If you would like to view the original jupyter notebook that was used in the class, it is available by <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">clicking here.</a>
 
-After much investigation, I decided to separate the task into two major parts.  The first notebook is designed to be run in colab.  <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">It is available by clicking here.</a>  You will have to download this notebook to your own computer and then upload into <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">Google Colab.</a>
+After a detailed investigation, I decided to separate the task into two major parts.  The first notebook is designed to be run in Colab.  It is available by <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">clicking here.</a>  You will have to download this notebook to your own computer and then upload into <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">Google Colab.</a>
 
 <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">The original jupyter notebook that was used in the class is available by clicking here.</a>
  
 
 https://colab.research.google.com/github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb
 
-To complete the second set of tasks and run the second notebook, one will first have to install Andaconda on their own personal computer.  Although Anadaconda is available for Windows, Linux, and MacOS, I have to date only released a version for the RHEL-based Linux OS.  The second notebook has been tested on Fedora 37, although it should run on any RHEL-based OS.  If there is interest, I might draft an alternative notebook for Debian-based distros.
+To complete the second set of tasks and run the second notebook, one will have to install Andaconda on their own personal computer.  Although Anaconda is available for Windows, Linux, and MacOS, I have to date only released a version for Fedora, a RHEL-based Linux OS.  The second notebook has been tested on Fedora 37, although it should run on any RHEL-based OS.  If there is interest, I might draft an alternative notebook for Debian-based distros.
 
-A complete list of the h/w test config, OS details, and installed conda related s/w is here.
+A complete list of the h/w test config, OS details, and installed conda related s/w is  <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">here.</a>
 
 #  Fedora install
 
