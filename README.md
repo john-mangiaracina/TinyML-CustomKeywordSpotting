@@ -34,9 +34,9 @@ A complete list of the h/w test config, OS details, and installed conda related 
 
 #  Fedora install
 
-If the user does not have access to a system running Fedora, they should use a VM.  The solution was tested on a system running Fedora on bare metal, but this is not required.  If you do not have Fedora installed on bare metal, consider a Virtual Machine (VM).  If you do not have a preference and especially if you are new to VMs, I suggest <a href="https://www.virtualbox.org/">VirtualBox.</a>  Installs are available for MacOS, Linux, and Windows.  There are an abundance of tutorials available to get you started.
+If the user does not have access to a system running Fedora 37, they should use a VM.  The solution was tested on a system running Fedora on bare metal, but this is not required.  If you do not have Fedora installed on bare metal, consider a Virtual Machine (VM).  If you do not have a preference and especially if you are new to VMs, I suggest <a href="https://www.virtualbox.org/">VirtualBox.</a>  Installs are available for MacOS, Linux, and Windows.  There are an abundance of tutorials available on YouTube and the web to get you started.
 
-If you need an .iso image of Fedora Workstation, it is available <a href="https://fedoraproject.org/workstation/">here.</a>  There are an abundance of tutorials available to get you started.
+If you need an .iso image of Fedora Workstation, it is available <a href="https://fedoraproject.org/workstation/">here.</a>  There are an abundance of tutorials available on YouTube and the web to get you started.
 
 #  Anaconda install
 
@@ -46,15 +46,47 @@ As a prerequisite, you will want to run the following code:
 
 sudo dnf install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver xxd
 
-from the command line.  I am recommending you do the install with sudo because you will not want to install anaconda from root.  Note the first series of executable code is required to run anaconda, and the last application xxd is required to be system installed for this lab.
+from the command line.  Note the first series of packages is required to run anaconda, and the last application xxd is required to be installed on your Fedora instance for this lab.
 
-This jupyter notebook assumes that the user follows all defaults.  This is because we will be changing some of the installed conda files and we need the files to be in the correct directory for the code to run correctly.
+This jupyter notebook assumes that the user follows all defaults as defined.  This is because we will be changing some of the installed python files within the virtual dev env, and we need the files to be in the specified directory.
 
-Once you have verified your conda install, close the terminal.  Then launch your terminal program again.
-
-Now, the fun begins!
+Once you have verified your conda install, close the terminal.  Then relaunch your terminal program.
 
 #  Create a virtual developer environment
 
-Now that 
+Now that you have anaconda installed within a Fedora 37 instance, let's create a virtual development environment.  This is necessary because we wish to have control over the version of python.  We will install 3.6.13.  This is required for Tensorflow 1.15, which is required for the second notebook we will use, which is labeled *part2.
+
+Go ahead and download a Conda cheat sheet <a href="https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf">here</a> for reference.
+
+To see your current list of development environments, enter
+
+conda env list
+
+You most likely see one listed which is your base development environment.
+
+To create a new environment with python version 3.6.13 named myenv36, enter
+
+conda create -n myenv36 python=3.6.13
+
+Click enter to proceed with the install.  Once it has installed, enter the dev env with
+
+conda activate myenv36
+
+You are now in the new environment!
+
+Once there, we will install Jupyter Notebook.  Do that be running the code
+
+pip install notebook
+
+To launch a jupyter server which will launch a webpage in your default browser, enter at the command line
+
+jupyter notebook
+
+Well done!  Now the fun begins!
+
+Navigate within the browser window to
+
+In case you later wish to remove this environment, you will enter
+
+conda remove --name myenv36 --all
 
