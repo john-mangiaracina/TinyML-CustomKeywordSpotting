@@ -7,6 +7,7 @@ This repository is devoted to providing a fix for a jupyter notebooks used for K
 
 Below is an image of the embedded dev board that is used in the course
 <img src="https://cdn.shopify.com/s/files/1/0506/1689/3647/products/ABX00031_03.front_643x483.jpg?v=1626445224" alt="Arduino Nano 33 BLE Sense board"> 
+
 The original notebook would no longer run due to the need to use Tensorflow version 1.15 and the lack of support for Python 3.6.x or 3.7.x within Google Colab.  These versions of Python are required to use Tensorflow 1.15.  
 
 If you would like to view the original jupyter notebook that was used in the class, it is available by <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">clicking here.</a>
