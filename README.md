@@ -1,8 +1,5 @@
 # Revised Jupyter Notebook for TinyML Custom Keyword Spotting (KWS)
 
-<img src="https://canadianmedicalteams.org/wp-content/uploads/2013/10/Website-Under-Construction-template1.jpg" alt="Under Construction">
-
-
 This repository provides a fix for a jupyter notebook used for Keyword Spotting (KWS) with a custom dataset.  The notebook is used as part of Section 1.5, "Deploying a KWS Model with Your Favorite Keyword(s)" in Course 3, "Deploying TinyML".  This course is part of the <a href="https://www.edx.org/professional-certificate/harvardx-applied-tiny-machine-learning-tinyml-for-scale">Applied Tiny Machine Learning (TinyML) for Scale Professional Certificate Program</a> offered through <a href="[url](https://www.edx.org)">edx.org</a>.
 
 Below is an image of the embedded dev board that is used in the course.
