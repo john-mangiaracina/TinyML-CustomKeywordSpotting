@@ -5,7 +5,7 @@ This repository provides a fix for a jupyter notebook used for Keyword Spotting 
 Below is an image of the embedded dev board that is used in the course.
 <img src="https://cdn.shopify.com/s/files/1/0506/1689/3647/products/ABX00031_01.iso_643x483.jpg?v=1626445224" alt="Arduino Nano 33 BLE Sense board"> 
 
-Issues arose because the code needs Tensorflow ver. 1.15. Documentation supports that TF 1.15 requires either Python 3.6.x or 3.7.x, both of which are no longer supported within Google Colab. 
+Issues arose because the code needs Tensorflow ver. 1.15. Documentation states that TF 1.15 requires either Python 3.6.x or 3.7.x, both of which are no longer supported within Google Colab. 
 
 If you would like to view the original notebook that was used in the class, it is available <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">here.</a>
 
