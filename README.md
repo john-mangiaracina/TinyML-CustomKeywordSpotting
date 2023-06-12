@@ -12,7 +12,9 @@ If you would like to view the original notebook that was used in the class, it i
 After an investigation, I decided to separate the task into two major parts.  The first notebook is to be run in Colab.  It is available by clicking <a href="[https://github.com/john-mangiaracina/4-6-8-CustomDatasetKWSModel-rev4-part1.ipynb](https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_rev4_part1.ipynb)">here.</a>  You will need to download this notebook to your own computer and then upload it into <a href="https://colab.research.google.com/">Google Colab.</a>
 
 The second notebook needs to be run in an install of Anaconda.  I have written up some documentation to get students quickly working with a local anaconda install.  (Anaconda has recently introduced a cloud based service which I have not tested, but should also work.)  This allows the user to easily define and install specific versions of Python.  
-The first notebook is available <a href="">here</a>  and the second notebook is available <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_rev4_part2.ipynb">here.</a>
+The first notebook is available <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_rev4_part1.ipynb">here</a>.
+
+The second notebook is available <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_rev4_part2.ipynb">here</a>.
  
 #  Using Google Colab
 
