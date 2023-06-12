@@ -29,7 +29,7 @@ Go to File in the main menu and click on Upload Notebook.  A window will pop up.
 
 Well done.  You are ready to proceed with part 1.
 
-To complete the second set of tasks and run the second notebook, one will have to install Andaconda on their own personal computer.  Although Anaconda is available for Windows, Linux, and MacOS, I have only tested the code on Fedora 37.  It should run on any RHEL-based OS.  
+To run the second notebook, one will have to install Andaconda on their own personal computer.  Although Anaconda is available for Windows, Linux, and MacOS, I have only tested the code on Fedora 37.  It should run on any RHEL-based OS.  
 
 A complete list of the h/w test config, OS details, and installed conda related s/w is <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/hardware-and-software-config-and-versions">here</a>.  This may prove helpful when troubleshooting.  
 
