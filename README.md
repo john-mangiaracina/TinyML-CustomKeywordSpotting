@@ -101,4 +101,4 @@ To remove the earlier installed dev env, enter at the command line:
 
 conda remove --name myenv37 --all
 
-Note:  A youtube video with a working custom dataset demo will be forthcoming.
+*Note:  A youtube video with a working custom dataset demo will be forthcoming.*
