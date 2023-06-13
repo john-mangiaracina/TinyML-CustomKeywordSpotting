@@ -7,7 +7,7 @@ Additional info for the kit is available at:  https://store-usa.arduino.cc/produ
 
 The first notebook was tested on the default Google Colab setup.  It was tested and verified on 10 June, 2023.
 
-The second notebook was tested on an x86 i7-7820HQ 4 cores multi-threaded 8MB L3 cache 32GB DRAM ThinkPad running Fedora 37 on bare metal.
+The second notebook was tested on an x86_64 i7-7820HQ 4 cores multi-threaded 8MB L3 cache 32GB DRAM ThinkPad running Fedora 37 on bare metal.
 
 The notebooks all ran successfully and the model ran as expected on the MCU.
 
