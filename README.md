@@ -33,6 +33,8 @@ A complete list of the h/w test config, OS details, and installed conda related 
 
 If you do not have Fedora 37 installed on bare metal, consider a Virtual Machine (VM).  If you are new to VMs, I suggest <a href="https://www.virtualbox.org/">VirtualBox.</a>  Installs are available for MacOS, Linux, and Windows.  There are an abundance of tutorials available on YouTube and the web to get you started.
 
+If you are on a Linux distro, I suggest Virtual Machine Manager.  (There is not as much support as VirtualBox, but I prefer it.)
+
 If you need an .iso image of Fedora Workstation, it is available <a href="https://fedoraproject.org/workstation/">here.</a>  There are an abundance of tutorials available on YouTube and the web to get you started.
 
 #  Anaconda install
@@ -45,13 +47,13 @@ sudo dnf install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-
 
 Note that all of the packages before xxd are required to run conda.  The application xxd must be installed on Fedora for this lab.
 
-This jupyter notebook assumes that the user follows all defaults as defined.  This is because we will be changing some of the installed python files within the virtual dev env, and we need the files to be in a specific directory.  even then, slight mods may be required.
+This jupyter notebook assumes that the user follows all defaults as defined.  This is because we will be changing some of the installed python files within the virtual dev env, and we need the files to be in a specific directory.
 
 Once you have verified your conda install, close the terminal.  Then relaunch your terminal program.
 
 #  Create a virtual developer environment
 
-Now that you have anaconda installed within a Fedora 37 instance, let's create a conda virtual development environment.  This is necessary because we wish to have control over the version of python.  We will install 3.7.16. 
+Now that you have Anaconda installed within a Fedora 37 instance, let's create a conda virtual development environment.  This is necessary because we wish to have control over the version of python.  We will install 3.7.16. 
 
 Feel free to download a Conda cheat sheet <a href="https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf">here</a> for reference.  (I find it comes in handy.)
 
@@ -83,7 +85,7 @@ Well done!  Now the fun begins!
 
 #  Running your local jupyter notebook
 
-Navigate to the new window/tab that was launched.  (This will most likely be a new tab.)  The url will show something along the lines of "http://localhost:8888/tree".  Navigate to your saved copy of the saved part2 notebook, which you will click on.  It will launch in a new tab/window.
+Navigate to the new window/tab that was launched.  (This will most likely be a new tab.)  The url will show something along the lines of "http://localhost:8888/tree".  Navigate to your saved copy of the part2 notebook, which you will click on.  It will launch in a new tab/window.
 
 This should look somewhat like Colab.  Carry on as normal.
 
@@ -93,7 +95,7 @@ At the command line you may at some point wish to leave the dev env.  Enter:
 
 conda deactivate
 
-I have found this setup to be a little picky.  I have not found a way to install TF 1.15 from within the dev env before launching Jupyter and for the code to reliabley run.  So, TF 1.15 has to be installed each time from within the notebook.  Once completed, a user must remove the dev env and install a new dev env each time for a fresh dev env.  
+I have found this setup to be a little finicky.  I have not found a way to install TF 1.15 from within the dev env before launching Jupyter and for the code to reliabley run.  So, TF 1.15 has to be installed each time from within the notebook.  Once completed, a user must remove the dev env and install a new dev env each time for a fresh dev env.  Don't worry.  Once you get the hang of it, it is a quick process. 
 
 This is a little quirky, but it works.
 
@@ -102,3 +104,5 @@ To remove the earlier installed dev env, enter at the command line:
 conda remove --name myenv37 --all
 
 *Note:  A youtube video with a working custom dataset demo will be forthcoming.*
+
+Good luck
