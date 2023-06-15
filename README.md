@@ -5,11 +5,11 @@ This repository provides a fix for a jupyter notebook used for Keyword Spotting 
 Below is an image of the embedded dev board that is used in the course.
 <img src="https://cdn.shopify.com/s/files/1/0506/1689/3647/products/ABX00031_01.iso_643x483.jpg?v=1626445224" alt="Arduino Nano 33 BLE Sense board"> 
 
-Issues arose because the code needs Tensorflow ver. 1.15. Documentation states that TF 1.15 requires either Python 3.6.x or 3.7.x, both of which are no longer supported within Google Colab. 
+Issues arose because the code needs Tensorflow ver. 1.15. Documentation states that TF 1.15 requires either Python 3.6.x or 3.7.x, both of which are no longer supported within Google Colab (at least the free version.) 
 
 If you would like to view the original notebook that was used in the class, it is available <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_original_file.ipynb">here.</a>
 
-After an investigation, I decided to separate the task into two major parts.  The first notebook is to be run in Colab.  It is available by clicking <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_rev4_part1.ipynb">here.</a>  You will need to download this notebook to your own computer and then upload it into <a href="https://colab.research.google.com/">Google Colab.</a>
+After an investigation, I decided to separate the task into two major parts.  The first notebook is to be run in Colab.  It is available by clicking <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_rev4_part1.ipynb">here.</a>  You will need to download this notebook to your own computer and then upload it into <a href="https://colab.research.google.com/">Google Colab</a>.
 
 The second notebook needs to be run within an install of Anaconda.  I have written some documentation to get students quickly working with a local anaconda install.  (Anaconda has recently introduced a cloud based service which I have not tested, but may also work.)  This allows the user to easily define and install specific versions of Python. The second notebook is available <a href="https://github.com/john-mangiaracina/TinyML-CustomKeywordSpotting/blob/main/4_6_8_CustomDatasetKWSModel_rev4_part2.ipynb">here</a>.
  
