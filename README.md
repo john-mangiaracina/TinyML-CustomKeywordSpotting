@@ -103,6 +103,9 @@ To remove the earlier installed dev env, enter at the command line:
 
 conda remove --name myenv37 --all
 
-*Note:  A youtube video with a working custom dataset demo will be forthcoming.*
-
 Good luck
+
+#  Update June 22 2023
+
+->  Same procedure as above was used, but with Fedora 38 instead of Fedora 37.  All code ran without issue.
+
