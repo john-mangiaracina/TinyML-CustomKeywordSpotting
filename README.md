@@ -4,7 +4,7 @@ This repository provides a fix for a jupyter notebook used for Keyword Spotting 
 
 Below is an image of the kit that is used in the course.
 
-<img src="https://store-usa.arduino.cc/cdn/shop/files/AKX00028_02.unbox_643x483.jpg?v=1727104419" alt="Arduino TinyML Kit" class="center"> 
+<img src="https://store-usa.arduino.cc/cdn/shop/files/AKX00028_02.unbox_643x483.jpg?v=1727104419" alt="Arduino TinyML Kit" style="width:50%;"> 
 
 Issues arose because the code needs Tensorflow ver. 1.15. Documentation states that TF 1.15 requires either Python 3.6.x or 3.7.x, both of which are no longer supported within Google Colab (at least the free version.) 
 
